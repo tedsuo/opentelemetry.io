@@ -54,9 +54,9 @@ Checking the current status for each client in the README of its [github repo](h
 **API:** stable  
 **SDK:** stable  
 **Protocol:** stable  
-**Collector:** stable  
+**Collector:** experimental  
 
-* OpenTelemetry Tracing is now completely stable, and covered by long term support.
+* The OpenTelemetry tracing specification is now completely stable, and covered by long term support.
 * OpenTelemetry clients are versioned to v1.0 once their tracing implementation is complete.
 * The tracing specification is still extensible, but only in a backwards compatible manner.
 
