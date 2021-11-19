@@ -36,6 +36,7 @@ Components follow a development lifecycle: Draft, Experimental, Stable, Deprecat
 
 - **Draft** components are under design, and have not been added to the specification.
 - **Experimental** components are released and available for beta testing.
+- **Experimental - Feature Freeze** components are released and available for final testing.
 - **Stable** components are backwards compatible and covered under long term support.
 - **Deprecated** components are stable, but may eventually be removed.
 
@@ -46,6 +47,123 @@ For complete definitions of lifecycles and long term support, see [Versioning an
 The following is a high level status report for currently available signals. Note that while the OpenTelemetry clients conform to a shared specification, they are developed independently.
 
 Checking the current status for each client in the README of its [github repo](https://github.com/open-telemetry) is recommended. Client support for specific features can be found in the [specification compliance tables](https://github.com/open-telemetry/opentelemetry-specification/blob/main/spec-compliance-matrix.md).
+
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Traces</th>
+      <th>Metrics</th>
+      <th>Logs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>OpenTelemetry Protocol</td>
+      <td>Stable</td>
+      <td>Stable</td>
+      <td>Experimental - Feature Freeze</td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry Specification</td>
+      <td>Stable</td>
+      <td>Experimental - Feature Freeze</td>
+      <td>Experimental</td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry Collector</td>
+      <td>Stable</td>
+      <td>Prometheus: Stable<br/>StatsD: Experimental</td>
+      <td>Experimental</td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry Go</td>
+      <td>Stable</td>
+      <td>Experimental</td>
+      <td>On Hold</td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry Java</td>
+      <td>Stable</td>
+      <td>Experimental</td>
+      <td>Experimental</td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry JavaScript</td>
+      <td>Stable</td>
+      <td>Experimental</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry Python</td>
+      <td>Stable</td>
+      <td>Experimental</td>
+      <td>Experimental</td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry Ruby</td>
+      <td>Stable</td>
+      <td>Experimental</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry Erlang</td>
+      <td>In-Review</td>
+      <td>Experimental</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry PHP</td>
+      <td>Experimental</td>
+      <td>Experimental</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry Rust</td>
+      <td>In-Review</td>
+      <td>Experimental</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry C++</td>
+      <td>Stable</td>
+      <td>Draft</td>
+      <td>Experimental</td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry .NET</td>
+      <td>Stable</td>
+      <td>Experimental</td>
+      <td>Experimental</td>
+    </tr>
+    <tr>
+      <td>OpenTelemetry Swift</td>
+      <td>Stable</td>
+      <td>Experimental</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Instrumentation: Http</th>
+      <th>Instrumentation: Messaging</th>
+      <th>Instrumentation: Database</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Specification</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 
 #### Tracing
 
